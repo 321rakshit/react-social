@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.commentInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentInput_textarea{
+    border:none;
+    width:100%;
+    resize:none;
+    margin:8px 0px;
+    font-family: 'Roboto', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.commentInput_textarea{
+    outline: none;
+}
+
+.commentInput_btn{
+    background-color: white;
+    border:none;
+}
+
+.commentInput_btn:focus{
+    outline:none;
+}
